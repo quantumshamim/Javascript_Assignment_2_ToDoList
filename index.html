@@ -13,13 +13,18 @@
       <div>
         <input type="text" id="input" name="input" placeholder="Add a task" class="flex-1 border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
         required>
-        <button id="btnAdd" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">add</button>
+        <button type="button" id="btnAdd" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">add</button>
       </div> 
     </form>
 
-    <div>
-        <select name="" id="list" class="h-50 w-full border border-gray-300 rounded-lg px-3 py-2" multiple></select>
+    <div class="flex gap-4 mb-4 w-full">
+      <select name="" id="list" class="h-50 w-full border border-gray-300 rounded-lg px-3 py-2" multiple></select>
+      <div class="grid gap-4 mb-4">
+        <button type="button" id="btnedit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">edit</button>
+        <button type="button" id="btndelete" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">delete</button>
       </div>
+      
+    </div>
   </div>
     
 
